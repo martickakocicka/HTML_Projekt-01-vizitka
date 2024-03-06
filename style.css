@@ -2,15 +2,29 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+.hlavicka{
+    background-color: url(obrazky/mech.jpg);
+    background-size: cover;
+
+
+}
+h1{
+    font-family: Raleway;
+}
+h2{
+    font-family: ojuju;
+}
 #mech {
     width: 100%;
-
+    height: 30%;
     margin: 0;
 }
+.titulek, .omne, 
 
-.body{
-    background-color: #e1e39a;
+.body {
+    background-color: #e9eba0;
     color: black;
+    font-family: Ubuntu;
 }
 
 .menu a{
@@ -19,7 +33,7 @@ html { box-sizing: border-box; }
     padding: 30px 70px 50px;
     border: 1px solid black;
     margin:50px 50px 50px 50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: Ojuju;
     
     
 }
