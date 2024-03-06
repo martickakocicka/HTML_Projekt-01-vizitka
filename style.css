@@ -2,11 +2,13 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-.hlavicka{
-    background-color: url(obrazky/mech.jpg);
-    background-size: cover;
 
-
+.mech{
+    width: 100%;
+   
+    
+    transform: skewY(200px)
+   
 }
 h1{
     font-family: Raleway;
@@ -19,21 +21,24 @@ h2{
     height: 30%;
     margin: 0;
 }
-.titulek, .omne, 
+
 
 .body {
     background-color: #e9eba0;
     color: black;
     font-family: Ubuntu;
+    margin: 0;
 }
 
 .menu a{
     text-decoration: none;
     color: #957964;
-    padding: 30px 70px 50px;
-    border: 1px solid black;
+    width: fit-content;
+    height: max-content;
+    font-weight: bold;
     margin:50px 50px 50px 50px;
     font-family: Ojuju;
+    text-align: center;
     
     
 }
@@ -44,12 +49,32 @@ h2{
     display:inline-block;
     text-align: center;
     background-color: #603140;
-    height: 100px;
-    font-weight: bold;
+    margin: 0;
     
    
 }
 
 .menu a:hover{
     background-color:#cad178;
+}
+
+.contactme {
+    text-decoration: none;
+    color: #957964;
+     
+    font-family: Ojuju;
+    font-size: 20;
+    background-color: #603140;
+    opacity: 70%;
+    width:fit-content;
+    height:fit-content;
+    overflow: auto;
+
+    
+}
+.contactme {
+    position: fixed;
+    right: 0;
+    top: 30%;
+    margin: 0;
 }
