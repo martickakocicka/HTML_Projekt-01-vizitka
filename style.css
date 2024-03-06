@@ -5,16 +5,16 @@ html { box-sizing: border-box; }
 
 .mech{
     width: 100%;
-   
-    
-    transform: skewY(200px)
-   
+    height: 200px;
+    margin: 0; 
 }
 h1{
     font-family: Raleway;
+    margin-left: 20px;
 }
 h2{
     font-family: ojuju;
+    margin: 20px;
 }
 #mech {
     width: 100%;
@@ -43,6 +43,7 @@ h2{
     
 }
 
+
 .menu{
     width: 100%;
     font-size: 40px;
@@ -60,21 +61,32 @@ h2{
 
 .contactme {
     text-decoration: none;
-    color: #957964;
-     
+    color: #957964;     
     font-family: Ojuju;
     font-size: 20;
     background-color: #603140;
     opacity: 70%;
     width:fit-content;
     height:fit-content;
-    overflow: auto;
-
-    
+    overflow: auto;    
 }
 .contactme {
     position: fixed;
     right: 0;
-    top: 30%;
-    margin: 0;
+    top: 24%;
+    margin-right: 0;
 }
+
+.uvod, .omne, .kontaktuj {
+    margin: 20px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+#jafoto {
+    width: 250px;
+    border-radius: 50%;
+    border: 10px solid #cad178;
+    float:right;
+    overflow: auto;
+}
+
