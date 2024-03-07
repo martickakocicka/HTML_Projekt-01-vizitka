@@ -8,6 +8,18 @@ html { box-sizing: border-box; }
     height: 200px;
     margin: 0; 
 }
+#elrond {
+    height: 250px;
+    float:left;
+    border: 10px solid #cad178;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+#rimmer{
+    height: 300px;
+    border: 10px solid #cad178;
+    border-radius: 10%;
+}
 h1{
     font-family: Raleway;
     margin-left: 20px;
@@ -81,12 +93,14 @@ h2{
     margin: 20px;
     text-align: justify;
     margin-bottom: 100px;
+    background-color: #eef6a8;
+    border-radius:10%;
 }
 #jafoto {
     width: 250px;
     border-radius: 50%;
     border: 10px solid #cad178;
     float:right;
-    overflow: auto;
+    overflow:hidden;
 }
 
