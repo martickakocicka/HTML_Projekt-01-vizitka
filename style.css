@@ -72,7 +72,7 @@ h2{
     background-color:#cad178;
 }
 
-.contactme {
+.contactme{
     text-decoration: none;
     color: #957964;     
     font-family: Ojuju;
@@ -82,8 +82,6 @@ h2{
     width:fit-content;
     height:fit-content;
     overflow: auto;    
-}
-.contactme {
     position: fixed;
     right: 0;
     top: 24%;
